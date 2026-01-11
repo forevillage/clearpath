@@ -47,11 +47,16 @@ nav a {
 
 /* Hero */
 .hero {
-  background: url("images/hero.jpg") center/cover no-repeat;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
-  padding: 6rem 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
+
 
 .hero h2 {
   font-size: 2.4rem;
