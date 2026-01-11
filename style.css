@@ -47,9 +47,9 @@ nav a {
 
 /* Hero */
 .hero {
-  background: #1f4fd8;
+  background: url("images/hero.jpg") center/cover no-repeat;
   color: white;
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
 }
 
